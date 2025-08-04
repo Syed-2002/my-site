@@ -26,7 +26,7 @@ var configs = (function () {
         rmdir_help: "Remove directory, this command will only work if the folders are empty.",
         touch_help: "Change file timestamps. If the file doesn't exist, it's created an empty one. ",
         sudo_help: "Execute a command as the superuser.",
-        welcome: "I’m Syed Abdul Malik (just a weirdly passionate cybersecurity student — the kind who thinks firewalls are more comforting than campfires)!! To get started, feel free to either execute the 'help' command (because typing stuff into terminals makes you 73% cooler) or use the more user-friendly, colorful sidenav to your left (yes, it’s there on purpose, and no, it won’t bite).To skip the dramatic text rolling, just double-click or tap anywhere — because we both know ain't nobody got time for that.",
+        welcome: "I’m Syed Abdul Malik (just a weirdly passionate cybersecurity student — the kind who thinks firewalls are more comforting than campfires)!!\n To get started, feel free to either execute the 'help' command (because typing stuff into terminals makes you 73% cooler)\n or use the more user-friendly, colorful sidenav to your left (yes, it’s there on purpose, and no, it won’t bite).\nTo skip the dramatic text rolling, just double-click or tap anywhere — because we both know ain't nobody got time for that.",
         internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.`(*>﹏<*)′",
         welcome_file_name: "",
         invalid_command_message: "<value>: command not found. Senpai... \nthat command isn’t even real! (*/ω＼*) \nMaybe try `'help'` before I completely break down from shame.",
