@@ -26,12 +26,12 @@ var configs = (function () {
         rmdir_help: "Remove directory, this command will only work if the folders are empty.",
         touch_help: "Change file timestamps. If the file doesn't exist, it's created an empty one.",
         sudo_help: "Execute a command as the superuser.",
-        welcome: "Welcome to my website!!!\n I am Syed Abdul Malik (just a weird passionte cybersecurity student) !!\nIn order to get started feel free to either execute the 'help' command or use the more user-friendly colored sidenav at your left.\nIn order to skip text rolling, double click/touch anywhere.",
+        welcome: "I’m Syed Abdul Malik (just a weirdly passionate cybersecurity student — the kind who thinks firewalls are more comforting than campfires)!! To get started, feel free to either execute the 'help' command (because typing stuff into terminals makes you 73% cooler) or use the more user-friendly, colorful sidenav to your left (yes, it’s there on purpose, and no, it won’t bite).To skip the dramatic text rolling, just double-click or tap anywhere — because we both know ain't nobody got time for that.",
         internet_explorer_warning: "NOTE: I see you're using internet explorer, this website won't work properly.`(*>﹏<*)′",
         welcome_file_name: "",
-        invalid_command_message: "<value>: command not found. dont be dumb!!!",
-        reboot_message: "Preparing to reboot...\n\n3...\n\n2...\n\n1...\n\nRebooting...BRUHHH!\n\n",
-        permission_denied_message: "Unable to '<value>', permission denied. Do you think i am dumb(*/ω＼*)?",
+        invalid_command_message: "<value>: command not found. Senpai... \nthat command isn’t even real! (*/ω＼*) \nMaybe try `'help'` before I completely break down from shame.",
+        reboot_message: "Preparing to reboot...\n\n3...\n\n2...\n\n1...\n\nRebooting... Because turning it off and on *again* is peak IT wisdom.\n\n",
+        permission_denied_message: "Unable to '<value>', permission denied. \nWhoa there, Hacker-chan! You really thought that would work? (*/ω＼*)",
         sudo_message: "Unable to sudo using a web client.",
         usage: "Usage",
         file: "file",
@@ -68,14 +68,14 @@ var files = (function () {
     };
     Singleton.defaultOptions = {
         
-        "about.txt": "I am a cybersecurity enthusiast seeking a progressive work environment where I can utilize my technical, and interpersonal skills to add value to the organization, while expanding my horizons in the revolutionary era of Information Security.",
+        "about.txt": "I’m a cybersecurity enthusiast (read: digital detective) looking for a progressive environment where I can break things—ethically—and fix them even better. \nMy goal? Add real value while keeping up with the wild ride that is modern InfoSec.",
        // "getting_started.txt": "First, go to js/main.js and replace all the text on both singleton vars.\n- configs: All the text used on the website.\n- files: All the fake files used on the website. 
        //These files are also used to be listed on the sidenav.\nAlso please notice if a file content is a raw URL, when clicked/concatenated it will be opened on a new tab.
        //\nDon't forget also to:\n- Change the page title on the index.html file\n- Change the website color on the css/main.css\n- Change the images located at the img folder. 
        //The suggested sizes are 150x150 for the avatar and 32x32/16x16 for the favicon.",
-        "education.txt":"I completed my B.Tech in Computer Science Engineering from JNTUH with 8.0 CGPA and I am currently enrolled at Yeshiva University to earn my Masters in cybersecurity.",
-        "certs.txt":"I have CEH and Quantum Computing dual cert from EC-Council and IBM respectively, I am also working on two certifications, eJPT(elearnsecurity junion penetration tester) and CISO.",
-        "contact.txt": "syedabdulmalik200@gmail.com",
+        "education.txt": "Graduated with a B.Tech in Computer Science Engineering from JNTUH (7.5 CGPA), and now leveling up with a Master's in Cybersecurity at Yeshiva University — currently rocking a 4.0 GPA!",
+        "certs.txt": "I’ve earned CEH and a Quantum Computing dual cert (thanks to EC-Council and IBM). I’m also Red Hat System Administration I certified. Right now, I’m grinding through eJPT and CISO prep — because why stop at just a few acronyms?",
+        "contact.txt": "syedabdulmalik200@gmail.com\n syedabdulmalik@zohomail.in",
         "linkedin.txt": "https://www.linkedin.com/in/syed-abdul-malik-5837981b8/",
         "blog.txt": "https://medium.com/@syed",
         "github.txt":"https://github.com/Syed-2002"
